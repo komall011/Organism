@@ -61,3 +61,11 @@ print(bob.isDead())
 print(bob.grow(40))
 print(bob.age)
 print(bob.isDead())
+
+alice = Organism("Alice","Human",100)
+print(alice.age)
+
+if bob.age > alice.age:
+    print("Bob is older")
+else:
+    print("Alice is older")
